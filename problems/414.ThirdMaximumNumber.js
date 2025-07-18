@@ -1,5 +1,6 @@
 // leetCode  414 - Third Maximum Number
 
+// Time: O(n logn)
 var thirdMax = function(nums) {
     nums.sort((a,b)=>b-a);
     const set = new Set(nums);
