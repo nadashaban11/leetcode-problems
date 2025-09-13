@@ -31,6 +31,3 @@ var doesAliceWin = function(s) {
     }
     return false;
 };
-
-
-
